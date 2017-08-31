@@ -1,5 +1,5 @@
-import Koa from "koa";
-import testRouter from "./api/test";
+const Koa = require("koa");
+const testRouter = require("./api/test");
 
 const app = new Koa();
 app.use(testRouter.routes());

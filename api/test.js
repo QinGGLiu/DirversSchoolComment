@@ -1,6 +1,7 @@
-import Router from "koa-router";
+const Router = require("koa-router");
 
-const router = new Router({prefix:"api/test"});
+const router = new Router({prefix:"/api/test"});
+
 router
 .get('/', function (ctx, next) {
   ctx.body = 'Hello World!';
@@ -18,4 +19,4 @@ router
   // ...
 });
 
-export default router;
+module.exports = router;
