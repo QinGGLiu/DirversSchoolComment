@@ -21,6 +21,10 @@
   "homepage": "https://github.com/QinGGLiu/DirversSchoolComment#readme",
   "dependencies": {
     "koa": "^2.3.0",
-    "koa-router": "^7.2.1"
+    "koa-router": "^7.2.1",
+    "vue": "^2.4.2"
+  },
+  "devDependencies": {
+    "webpack": "^3.5.5"
   }
 }
